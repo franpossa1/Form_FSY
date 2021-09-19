@@ -1,0 +1,209 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+}
+/*HEADER*/
+header {
+  background-color: #374754;
+  color: white;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.logo {
+  padding: 5px;
+  width: 275px;
+  height: 40px;
+}
+.header_nav_icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+.nav_menu {
+  padding: 15 20 15 20;
+  font-size: 16px;
+}
+.nav_menu:hover , .hero_contact_button:hover{
+    color:rgb(119, 116, 116);
+    cursor:pointer;
+}
+.header_button1 {
+  background-color: transparent;
+  padding: 8 10 8 12;
+  margin-right: 5;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.541);
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.header_button2 {
+    background-color: #C5BD00;
+  padding: 8 10 8 12;
+  margin-right: 5;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+/*Container*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*SECCION HERO*/
+
+.hero_container {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.hero_text {
+  width: 612;
+  min-height: 342;
+  align-self: center;
+  padding: 20px;
+}
+.hero_text_h1 {
+  margin: auto;
+  align-items: center;
+  font-size: 40px;
+}
+.hero_text_p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+}
+.hero_text_input {
+  border-radius: 100px;
+  border: 1px solid #eaeaea;
+  font-family: Poppins, san sans-serif;
+  font-size: 14px;
+  padding: 15 200 15 17;
+}
+.hero_contact_button{
+    border-radius: 100px;
+}
+.hero_images {
+  width: 672px;
+  height: 571px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.hero_img1 {
+  position: absolute;
+  width: 458.38px;
+  height: 340.42px;
+  left: 0px;
+  top: 120px;
+
+  filter: drop-shadow(30px 10px 4px #7e7eb1);
+}
+.hero_img2 {
+  position: absolute;
+  width: 412.45px;
+  height: 571.6px;
+  left: 250px;
+  top: 0px;
+
+  filter: drop-shadow(30px 10px 4px #7e7eb1);
+}
+
+/*SECCION CONTACTANOS*/
+
+.form_container{
+    width: 50%;
+    display: flex;
+    font-family: Poppins, san sans-serif;
+    flex-direction: column;
+    
+}
+.contactanos_section{
+    width: 1000px;
+    align-self: center;
+}
+form h1, form h2 {
+    text-align: center;
+}
+.form_input_nee {
+  width: 70%;
+  border-radius: 100px;
+  border: 1px solid #eaeaea;
+  font-family: Poppins, san sans-serif;
+  font-size: 14px;
+  margin:10px;
+  padding: 17px;
+
+}
+.form_div_fbinsta{
+  padding:17px;
+  font-size: 18px;
+}
+.form_div_fbinsta p {
+  padding :5px;
+}
+.form_div_fbinsta label input {
+margin: 7px;
+}
+.form_div_dias{
+  margin:17px;
+}
+.form_div_dias p, .form_div_dias label input {
+  padding:7 15 7 7;
+}
+.formulario_div label p {
+  padding:17px
+}
+.form_select {
+  border-radius: 100px;
+  border: 1px solid #eaeaea;
+  font-family: Poppins, san sans-serif;
+  font-size: 14px;
+  margin:10px;
+  padding: 17px;
+  width: 30%;
+}
+.form_textarea {
+ padding:20px;
+ font-family: Poppins, sans-serif;
+ border: 1px solid #eaeaea;
+ resize: none;
+ font-size:16px;
+ border-radius: 7px;
+}
+.form_send_button{
+  text-align: center;
+  margin :20;
+  margin-left:50%;
+  
+  width: 40%;
+}
+footer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inicio_button{
+  width: 70%;
+  
+  align-self: center;
+  margin:20px;
+}

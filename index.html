@@ -1,0 +1,125 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Servis Ya.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Header y nav-->
+    <header>
+      <nav class="header_nav">
+        <div class="logo">
+          <img
+            src="/Fullservis_logo.png"
+            class="full_servis_logo"
+            style="width: 275px; height: 40px"
+            alt=""
+          />
+        </div>
+        <div class="header_nav_icons">
+          <div class="nav_menu">Servicios</div>
+          <div class="nav_menu">Clientes</div>
+          <div class="nav_menu">Precios</div>
+          <div class="nav_menu">recursos</div>
+          <button class="nav_menu header_button1 ">
+            Iniciarse
+          </button>
+          <button class="nav_menu header_button2">Registrarse</button>
+          
+        </div>
+      </nav>
+    </header>
+    <!--Hero Imagen -->
+    <div class="container">
+      <div class="hero_container">
+        <div class="hero_text">
+          <h1 class="hero_text_h1">Full servis Ya te asesora</h1>
+          <p class="hero_text_p">
+            Profesionales en el area de plomeria, gas, pintura y albañileria
+            para ayudarte en lo que necesites! No dudes en contactarnos.
+          </p>
+          <div class="hero_input_container">
+            <input
+              type="text"
+              name=""
+              id=""
+              class="hero_text_input"
+              placeholder="Si quiero contactarme"
+            />
+            <button class="header_button2 hero_contact_button">Contacto</button>
+          </div>
+        </div>
+        <div class="hero_images">
+          <!--Aca van las imagenes-->
+          <img class="hero_img1" src="/gas2.jpg" alt="" />
+          <img src="/gas1.jpg" alt="" class="hero_img2" />
+        </div>
+      </div>
+      
+      <!--Formulario de contacto-->
+      <form action="#" class="form_container">
+        <div class="contactanos_section">
+          <h1>Contactanos</h1>
+          <h2>¿Deseas mas informacion detallada? Entra en contacto con nosotros.</h2>
+          <div class="logos">
+            <!--Logos de redes sociales-->
+          </div>
+        </div>
+        <div class="formulario_div">
+        <input class="form_input_nee" type="text" name="" id="" placeholder="Tu nombre" />
+        <input class="form_input_nee" type="email" name="" placeholder="Tu Email" required id="" />
+        <input class="form_input_nee" type="number" placeholder="Edad" name="" id="" />
+        <div class="form_div_fbinsta">
+          <p>¿Como nos conociste?</p>
+          <label for="">
+            <input type="radio" name="1" id="" value="Facebook" />Facebook
+          </label>
+          <label for="">
+            <input type="radio" name="1" id="" value="Twitter" />Twitter
+          </label>
+          <label for="">
+            <input type="radio" name="1" id="" value="Instagram" />Instagram
+          </label>
+        </div>
+        <div class="form_div_dias">
+          <p>¿Cuanto tiempo tienes disponible para hacer el trabajo?</p>
+          <label for=""
+            >Numero de dias
+            <input type="range" name="" id="" max="30" min="7" />
+          </label>
+        </div>
+        <label for="">
+          <p>Elegi el numero de dias para realizar el trabajo:</p>
+          <select class="form_select" name="" id="">
+            <option value="">Gas</option>
+            <option value="">Plomeria</option>
+            <option value="">Albañileria</option>
+            <option value="">Seguridad</option>
+          </select>
+        </label>
+        <br />
+        <textarea
+          name=""
+          class="form_textarea"
+          placeholder="Si deseas, comparte algo con nosotros..."
+          id=""
+          rows="7" cols="100"
+        ></textarea>
+        <br />
+        <input type="submit" value="Enviar"class="header_button2 hero_contact_button form_send_button"  />
+      </div>
+      </form>
+      <footer>
+        <button class="header_button2 hero_contact_button inicio_button">INICIO</button>
+      </footer>
+    </div>
+  </body>
+</html>
